@@ -15,6 +15,9 @@ For the second line, use `>>` to append the second line content
 ### P6
 output: `./semester: Permission denied`
 
+### P7 
+`chmod` [change access permissions](https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html#chmod-invocation)
+
 ### Git setup
 [SSH key related1](https://peteoshea.co.uk/setup-git-in-wsl/)
 
