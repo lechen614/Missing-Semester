@@ -18,6 +18,9 @@ output: `./semester: Permission denied`
 ### P7 
 `chmod` [change access permissions](https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html#chmod-invocation)
 
+### P10
+`sh ./Lecture1/semester | grep last-modified > ./Lecture1/last-modified.txt` Due to permission denied in WSL, still use the `sh` commend
+
 ### Git setup
 [SSH key related1](https://peteoshea.co.uk/setup-git-in-wsl/)
 
