@@ -25,3 +25,25 @@ polo() {
 - `last_dir` must be assigned with `$(pwd)`, `pwd` is a command, not a variable.
 - `"$last_dir"` comes with a quote is because my directory name contained space. Without double quotes, type `polo` will get `bash: cd: too many arguments`
 - Don't know why, 
+
+### P3
+Below script workds, but needs improvement
+```
+#!/usr/bin/env bash
+count=1
+./for_test_p3.sh >> output.txt 2>> output.txt
+while [ $? -eq 0 ]
+do
+count=$((count + 1))
+./for_test_p3.sh >> output.txt 2>> output.txt
+done
+cat output.txt
+echo "repeat $count times"
+```
+
+### P4
+`find . -name '*.html' | xargs -d tar cf html.tar`
+
+
+### P5
+`find . -type f | xargs -d ls -lt`
